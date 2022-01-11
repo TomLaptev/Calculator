@@ -1,0 +1,158 @@
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+	user-select: none;
+	margin: 0;
+	padding: 0;
+}
+
+html,
+body {
+	border: 0;
+	a {
+		text-decoration: none;
+		cursor: pointer;
+	}
+
+	div,
+	span,
+	object,
+	iframe,
+	img,
+	table,
+	caption,
+	thead,
+	tbody,
+	tfoot,
+	tr,
+	tr,
+	td,
+	article,
+	aside,
+	canvas,
+	details,
+	figure,
+	hgroup,
+	menu,
+	nav,
+	footer,
+	header,
+	section,
+	summary,
+	mark,
+	audio,
+	video {
+		border: 0;
+	}
+
+	h1,
+	h2,
+	h3,
+	h4,
+	h5,
+	h6,
+	p,
+	blockquote,
+	pre,
+	a,
+	abbr,
+	address,
+	cit,
+	code,
+	del,
+	dfn,
+	em,
+	ins,
+	q,
+	samp,
+	small,
+	strong,
+	sub,
+	sup,
+	b,
+	i,
+	hr,
+	dl,
+	dt,
+	dd,
+	ol,
+	ul,
+	li,
+	fieldset,
+	legend,
+	label {
+		border: 0;
+		font-size: 100%;
+		vertical-align: baseline;
+	}
+
+	article,
+	aside,
+	canvas,
+	figure,
+	figure img,
+	figcaption,
+	hgroup,
+	footer,
+	header,
+	nav,
+	section,
+	audio,
+	video {
+		display: block;
+	}
+	ul,
+	ol,
+	li {
+		list-style: none;
+	}
+
+	table {
+		border-collapse: collapse;
+		border-spacing: 0;
+		caption,
+		th,
+		td {
+			text-align: left;
+			vertical-align: middle;
+		}
+	}
+
+	a img,
+	:link img,
+	:visited img {
+		border: 0;
+	}
+
+	:focus {
+		outline: 0;
+	}
+}
+button,
+input,
+optgroup,
+select,
+textarea,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"],
+button[disabled],
+html input[disabled],
+button::-moz-focus-inner,
+input::-moz-focus-inner,
+input[type="checkbox"],
+input[type="radio"],
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button,
+input[type="search"],
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+	outline: none;
+	border: 0;
+	border-color: none ;
+	background-image: none;
+	/* -webkit-box-shadow: none;
+	-moz-box-shadow: none; */
+	box-shadow: none;
+}

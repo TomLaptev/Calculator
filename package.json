@@ -1,0 +1,36 @@
+{
+	"name": "mytemplate",
+	"version": "1.0.1",
+	"description": "Markup template with gulp 4",
+	"main": "index.js",
+	"scripts": {
+		"dev": "gulp watch",
+		"build": "gulp build"
+	},
+	"author": "",
+	"license": "ISC",
+	"devDependencies": {
+		"@babel/core": "^7.16.7",
+		"@babel/preset-env": "^7.16.7",
+		"browser-sync": "^2.27.7",
+		"del": "^6.0.0",
+		"font-awesome": "^4.7.0",
+		"gulp": "^4.0.2",
+		"gulp-autoprefixer": "^8.0.0",
+		"gulp-babel": "^8.0.0",
+		"gulp-clean-css": "^4.3.0",
+		"gulp-concat": "^2.6.1",
+		"gulp-file-include": "^2.3.0",
+		"gulp-group-css-media-queries": "^1.2.2",
+		"gulp-imagemin": "^7.1.0",
+		"gulp-plumber": "^1.2.1",
+		"gulp-rename": "^2.0.0",
+		"gulp-sass": "^5.1.0",
+		"gulp-sourcemaps": "^3.0.0",
+		"gulp-uglify-es": "^3.0.0",
+		"postcss": "^8.4.5",
+		"sass": "^1.45.2",
+		"scroll-to-element": "^2.0.3"
+	},
+	"dependencies": {}
+}
